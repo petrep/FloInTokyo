@@ -5,6 +5,7 @@
 }
 
 .image {
+    width: 200px; /* vagy bármilyen méret, ami megfelelőnek tűnik */
     margin-right: 20px;
     flex-shrink: 0;
 }
