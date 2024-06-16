@@ -5,8 +5,10 @@
 
 .image {
     margin-right: 20px;
+    flex-shrink: 0; /* Megakadályozza, hogy a kép összenyomódjon. */
 }
 
 .text {
     max-width: 400px;
+    flex-grow: 1; /* Engedi, hogy a szöveg kitöltse a maradék helyet. */
 }
