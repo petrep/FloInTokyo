@@ -1,14 +1,15 @@
 .container {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap; /* Megakadályozza az elemek tördelődését. */
 }
 
 .image {
     margin-right: 20px;
-    flex-shrink: 0; /* Megakadályozza, hogy a kép összenyomódjon. */
+    flex-shrink: 0;
 }
 
 .text {
     max-width: 400px;
-    flex-grow: 1; /* Engedi, hogy a szöveg kitöltse a maradék helyet. */
+    flex-grow: 1;
 }
