@@ -26,6 +26,12 @@ body {
   height: auto;
 }
 
+.left-image {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
 /* Szöveg */
 .text-container {
   padding: 20px; /* Belső margó a szöveg körül */
