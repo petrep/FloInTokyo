@@ -1,26 +1,36 @@
 /* Általános stílusok */
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+/* Flexbox konténer */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px; /* Válasszon egy tetszőleges maximális szélességet */
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Oszlopos elrendezés (mobiltelefonon) */
+  align-items: flex-start; /* Elemek balra igazítása */
+  width: 100%;
+  max-width: 1200px; /* Válasszon egy tetszőleges maximális szélességet */
+  margin: 0 auto;
 }
 
-/* Képek */
+/* Kép */
 .image-container {
-    max-width: 800px; /* Válasszon egy tetszőleges maximális szélességet a képhez */
-    margin: 20px auto;
+  max-width: 50%; /* A kép maximális szélessége a képernyő 50%-a */
+  margin: 20px 0;
 }
 
 .image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* Szöveg */
+.text-container {
+  padding: 20px; /* Belső margó a szöveg körül */
+}
+
+h1, p {
+  margin: 0; /* Távolítsa el a címsorok és bekezdések alapértelmezett margóit */
 }
