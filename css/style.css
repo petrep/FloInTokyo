@@ -1,29 +1,22 @@
-/* Általános stílusok */
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
 }
 
-/* Flexbox konténer */
 .container {
-  display: flex;
-  flex-direction: column; /* Oszlopos elrendezés (mobiltelefonon) */
-  align-items: flex-start; /* Elemek balra igazítása */
-  width: 100%;
-  max-width: 1200px; /* Válasszon egy tetszőleges maximális szélességet */
-  margin: 0 auto;
-}
-
-/* Kép */
-.image-container {
-  max-width: 50%; /* A kép maximális szélessége a képernyő 50%-a */
-  margin: 20px 0;
-}
-
-.image {
-  width: 100%;
-  height: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .left-image {
@@ -32,11 +25,6 @@ body {
     border-radius: 8px;
 }
 
-/* Szöveg */
-.text-container {
-  padding: 20px; /* Belső margó a szöveg körül */
-}
-
-h1, p {
-  margin: 0; /* Távolítsa el a címsorok és bekezdések alapértelmezett margóit */
+.text {
+    max-width: 400px;
 }
