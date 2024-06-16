@@ -1,30 +1,9 @@
-/* Bootstrap CSS betöltése */
-@import "~bootstrap/scss/bootstrap.scss";
-
-
-/* Alap stílusok */
-body {
-    font-family: sans-serif;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-/* Képek stílusai */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Oszlopok stílusai (Bootstrap 4 oszlopkezelő) */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-md-6 {
+.col-md-6 { /* Közepes méretű képernyők (pl. laptopok) */
     flex: 1 0 50%;
+    padding: 15px;
+}
+
+.col-sm-12 { /* Kisebb képernyők (pl. telefonok) */
+    flex: 1 0 100%;
     padding: 15px;
 }
